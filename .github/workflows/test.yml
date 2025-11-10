@@ -24,4 +24,4 @@ jobs:
 
       - name: Ejecutar pruebas
         run: |
-          pytest -v
+         PYTHONPATH=$PYTHONPATH:$(pwd) pytest 
